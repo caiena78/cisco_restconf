@@ -1,6 +1,6 @@
 
-user="smhadmin";
-pwd="plato2009!"
+user=process.env.switch_user;
+pwd=process.env.switch_pwd;
 //'/restconf/data/ietf-interfaces:interfaces'
 
 async function start(){ 
